@@ -7,6 +7,7 @@ title{
     position: centre;
 }
 body{
+    box-sizing: content-box;
     position: centre;
     margin: 100pxs 200px;
     background-color: rgb(106, 190, 216);
