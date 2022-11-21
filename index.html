@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<h1>Registration Form</h1>
+<body>
+    <form method="post" action="cred_checked.php" enctype="multipart/form-fata">
+<label>Name :</label>  <input type="text" name="fname" placeholder="Enter your name here" required><br>
+<br>
+<label>Enter Your Password :</label> <input type="password"  name="pwd" placeholder="Enter your password here" required><br>
+<br>
+<label>Enter Your Address :</label><textarea name="address" placeholder="address" requied></textarea><br>
+<br>
+<label>Enter Your E-mail :</label> <input type ="e-mail" name="email" placeholder="Enter your E-mail Here"><br>
+<br>
+<label>Enter your Age :</label> <input type="number" name="age" placeholder="Enter your age" required><br>
+<br>
+Gender:
+<input type="radio" name="Gender" value="Male" required>Male
+<input type="radio" name="Gender" value="Female" required>Female<br>
+<br>
+Hobbies:
+<input type="checkbox" name="Hobbies[]" value="Reading">Reading
+<input type="checkbox" name="Hobbies[]" value="Cricket">Cricket
+<input type="checkbox" name="Hobbies[]" value="Teaching">Teaching
+<br>
+
+
+<select name="days[]">
+    <option value="Monday">Monday</option>
+    <option value="Tuesday">Tuesday</option>
+    <option value="Wednesday">Wednesday</option>
+    <option value="Thursday">Thursday</option>
+    <option value="Friday">Friday</option>
+    <option value="Saturday">Saturday</option>
+    <option value="Sunday">Sunday</option>
+    
+
+
+
+</select>
+<br>
+<br>
+Enter Your Id No:-
+<input type="number" name="documentno" value="document">
+<br>
+<br>
+<label>Upload Your Document Image Here:</label><input type="file" name="document" value="document image">
+<br>
+<br>
+<label>Upload Image Here:</label><input type="file" name="document" value="image"><br>
+<br>
+<input type="checkbox" name="t&c" value="t&c"required>agree terms and conditions
+<br>
+<input type="submit" value="Submit" required>
+<input type="reset" value="Reset">
+
+
+</form>
+
+</body>
+
+</html>

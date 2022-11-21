@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+title{
+    position: centre;
+}
+body{
+    position: centre;
+    margin: 100pxs 200px;
+    background-color: rgb(106, 190, 216);
+    padding: 110px;
+    width: auto;
+}
